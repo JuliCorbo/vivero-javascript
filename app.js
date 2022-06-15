@@ -69,5 +69,8 @@ const seccion = prompt("en esta tienda encontraras los mejores fertilizantes! Pa
       
     }
     
-    console.log(carrito)
+    console.log(carrito[0][0].precio)
+    console.log(carrito[0][0].volumen)
+    console.log(carrito[0][0].variedad)
+    
 
